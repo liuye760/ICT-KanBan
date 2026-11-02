@@ -1,0 +1,45 @@
+:root {
+  --color-bg: #f4f6fb;
+  --color-bg-gradient: radial-gradient(circle at 12% 8%, #e8ecff 0%, transparent 46%),
+    radial-gradient(circle at 88% 4%, #ffe9f2 0%, transparent 42%);
+  --color-surface: #ffffff;
+  --color-surface-2: #f7f8fc;
+  --color-border: #e5e8f0;
+  --color-text: #1c2033;
+  --color-text-muted: #7a8199;
+  --color-primary: #5b5bd6;
+  --color-primary-soft: rgba(91, 91, 214, 0.1);
+  --color-on-primary: #ffffff;
+  --color-accent: #ff6b9a;
+  --color-success: #16a34a;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-star: #fbbf24;
+  --color-column-bg: rgba(255, 255, 255, 0.55);
+  --color-shadow: rgba(28, 32, 51, 0.08);
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --shadow-sm: 0 1px 2px var(--color-shadow);
+  --shadow-md: 0 8px 24px -8px var(--color-shadow);
+  --shadow-lg: 0 24px 48px -16px var(--color-shadow);
+
+  --font-sans: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', system-ui, -apple-system, sans-serif;
+  --transition: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  --z-sticky: 10;
+  --z-modal: 1000;
+  --z-toast: 1100;
+  --z-celebration: 1200;
+}

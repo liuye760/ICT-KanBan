@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.vite/
+*.log
+vite-dev.log
+vite-dev.err.log
+.DS_Store
+.idea/
+.vscode/
+sts-creds.json
+sts-creds.sh
